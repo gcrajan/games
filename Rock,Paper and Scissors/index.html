@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st js project </title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="static/css/phone.css">
+</head>
+
+<body>
+    <div class="container-3">
+        <!-- Create outer box for Rock,Paper and Scissors  -->
+        <h2>Rock,Paper,Scissors</h2>
+        <!-- Create a flex box for putting images  -->
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img src="static/images/rock.jpg" alt="Rock image" class="image" id="rock" onclick="rpsgame(this)">
+            <img src="static/images/paper.png" alt="Paper image" class="image" id="paper" onclick="rpsgame(this)">
+            <img src="static/images/scissors.jpg" alt="Scissors image" class="image" id="scissors"
+                onclick="rpsgame(this)">
+        </div>
+    </div>
+    <button class="hide btn">Reload</button>
+    <script src="static/js/app.js"></script>
+</body>
+
+</html>

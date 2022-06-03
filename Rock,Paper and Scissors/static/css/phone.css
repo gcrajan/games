@@ -1,0 +1,12 @@
+.image {
+  height: 90px;
+  width: 90px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+  margin: 0px 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+  font-size: 13px;
+}

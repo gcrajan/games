@@ -1,0 +1,42 @@
+/* Rock,Paper and Scissors */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container-3 {
+  /* border: 1px solid black; */
+  width: 60%;
+  margin: 20px auto;
+  padding: 45px 0px;
+}
+h2 {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.image {
+  height: 150px;
+  width: 150px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+  margin: 0px 11px;
+}
+.image:hover {
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+.flex-box-rps {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hide{
+  display: none;
+}
+.btn {
+  position: fixed;
+  top: 3%;
+  left: 15%;
+  border-radius: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
