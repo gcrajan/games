@@ -1,2 +1,3 @@
 # games
-Here you see some of my projects related to games. Enjoy 😉😉😉
+Here, you can find all my games related projects source code. 
+Enjoy 😉😉😉
